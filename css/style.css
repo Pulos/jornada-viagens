@@ -5,7 +5,6 @@
   font-display: swap;
 }
 
-/* Variaveis de estilo CSS */
 :root {
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -22,9 +21,6 @@
   --menu-text-weight: 500;
 }
 
-/* menu peso 500, footer peso 400, cards peso 400 e 700, titulos 700, depoimentos 400 e 700 */
-
-/* CSS RESET */
 body,
 img,
 h1,
@@ -41,6 +37,3 @@ button {
   box-sizing: border-box;
 }
 
-h1 {
-  color: var(--text-primary-color);
-}
