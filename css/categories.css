@@ -1,5 +1,5 @@
-.categories{
-  margin: 104px;
+.categories {
+  margin-bottom: 80px;
 }
 
 .categories .section-title {
@@ -15,7 +15,7 @@
   margin-top: 64px;
 }
 
-.categories-cards .card {
+.categories-cards a.card {
   width: 312px;
   height: 220px;
   background-color: var(--background-secondary-color);
@@ -56,11 +56,6 @@
 @media screen and (min-width: 1024px) {
   .categories .card {
     width: 430px;
-  }
-  .categories-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
