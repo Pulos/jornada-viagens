@@ -35,6 +35,8 @@
   line-height: 32px;
 }
 
+/* DESTINATIONS */
+
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;

@@ -26,6 +26,54 @@
   grid-column: span 2;
 }
 
+/* DESTINATIONS */
+.travel-payments .content-container .text-content h3 {
+  font-size: 40px;
+  margin-top: 24px;
+}
+
+.travel-payments .content-container .text-content h4 {
+  font-size: 28px;
+  margin-top: 24px;
+}
+
+.travel-payments .content-container .text-content p {
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+.travel-payments .content-container .text-content footer {
+  margin-top: 24px;
+}
+
+.travel-payments .content-container .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.travel-payments .content-container .image-gallery .image.first {
+  background: url(../img/travel-packages/travel-gallery1-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-payments .content-container .image-gallery .image.second {
+  background: url(../img/travel-packages/travel-gallery2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/travel-packages/travel-gallery3-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet-desk.png) no-repeat;
@@ -46,6 +94,25 @@
   }
 }
 
+/* DESTINATIONS */
+.travel-payments .content-container .image-gallery .image.first {
+  background: url(../img/travel-packages/travel-gallery1-tablet.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-payments .content-container .image-gallery .image.second {
+  background: url(../img/travel-packages/travel-gallery2-tablet.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/travel-packages/travel-gallery3-tablet.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
@@ -58,6 +125,22 @@
   }
 
   .payments .content-container .image-gallery {
+    width: 790px;
+    margin: 0;
+  }
+
+  /* DESTINATIONS */
+  .travel-payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .travel-payments .content-container .text-content {
+    width: 360px;
+    margin: 0;
+  }
+
+  .travel-payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
   }
